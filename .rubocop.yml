@@ -1,0 +1,9 @@
+inherit_from:
+  - https://shopify.github.io/ruby-style-guide/rubocop.yml
+
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+NumericLiterals:
+  Enabled: false
